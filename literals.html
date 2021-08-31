@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template literals : javascript tutorial</title>
+</head>
+<body>
+
+    <h2>  This video for template literals (formating in javascript ) , how to use variable in string    </h2> 
+
+    <h3>  Mehtod 1  </h3>
+
+    <p id="method1"> </p>
+
+    <h3>  Method 2  </h3> 
+    <p  id="method2">     </p> 
+
+
+    <h1>   Thanks for watching my videos and please do subscribe my channel and like the videos   </h1> 
+
+
+
+    <script>
+
+        var channel_name="catch error";
+        var channel_videocount=29;
+        var method1=1;
+
+
+        // method 1 
+
+        var output_1=document.getElementById('method1')
+        output_1.innerHTML="my channel name is "+channel_name+" and in my channel have "+channel_videocount + " videos ----- by method "+method1 ;
+
+
+
+        //method 2
+        var method2=2;
+        var output_2=document.getElementById('method2')
+        output_2.innerHTML=`my channel name is ${channel_name} and in my channel have ${channel_videocount} videos ---- by method ${method2} `
+
+
+
+
+       
+        </script>
+    
+</body>
+</html>
